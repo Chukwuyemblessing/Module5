@@ -62,22 +62,39 @@ ul li a {
   font-size: 3rem ;
 }
 .about p{
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .section2{
   display: grid;
-  grid-template-columns: 40% 40%;
-  gap: 5%;
-  padding: 1rem 0;
+  grid-template-columns: 50% 30%;
+  gap: 6%;
+  padding: 1.5rem 0;
 }
 .skill2{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
-  gap: 6px;
+  gap: 15px;
+  
   
 }
 .skill2 p{
-  padding: 0.5rem 0.5rem;
+  padding: 1rem 0.5rem;
   border: solid black 1px;
 
+}
+.sofar h1{
+  padding: 1rem 0;
+  font-size: 3rem;
+}
+.sofar p{
+  font-size: 1.5rem;
+}
+.skills h1{
+  padding: 1rem 0;
+  font-size: 3rem;
+}
+.section3{
+  text-align: center;
+  padding: 2rem 0;
+  
 }
