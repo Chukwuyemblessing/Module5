@@ -35,8 +35,9 @@ ul li a {
 .section1 {
   display: grid;
   height: 70vh;
-  grid-template-columns: 40% 40%;
-  gap: 20%;
+  grid-template-columns: 40% 55%;
+  gap: 5%;
+  padding: 1rem 0;
   
 
 }
@@ -47,8 +48,36 @@ ul li a {
 .profile {
   background: url("./mypic.jpg") no-repeat center center/cover;
   border-radius: 50%;
+  border: black solid 10px;
+  
 }
 
 .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.about h1{
+  font-size: 3rem ;
+}
+.about p{
+  font-size: 2rem;
+}
+.section2{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 5%;
+  padding: 1rem 0;
+}
+.skill2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 6px;
   
+}
+.skill2 p{
+  padding: 0.5rem 0.5rem;
+  border: solid black 1px;
+
 }
